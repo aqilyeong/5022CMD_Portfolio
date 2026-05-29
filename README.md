@@ -10,60 +10,32 @@ This repository contains the source code for the **Advanced Algorithms (5022CMD)
 
 A local management system designed for a pharmacy store, utilizing custom data structures for efficient data retrieval.
 
-* 
 **Core Mechanism:** Implements a Hash Table utilizing Linear Probing (Open Addressing) for collision resolution.
-
-
-* 
 **Features:** A command-line interface that allows users to insert, display, and search for pharmacy products (e.g., medicine).
-
-
-* 
 **Performance Analysis:** Includes a built-in benchmarking tool to compare the execution time of searching records in the Hash Table versus a standard one-dimensional array.
 
 
 
 2. Transaction Management System (Divide & Conquer) 
+* A menu-driven program that processes and organizes customer transaction data for an online shopping system.
 
-A menu-driven program that processes and organizes customer transaction data for an online shopping system.
-
-* 
 **Sorting:** Utilizes **Merge Sort** to organize unsorted transaction records based on their `transactionID`.
-
-
-* 
 **Searching:** Implements **Binary Search** to quickly locate specific transactions.
-
-
-* 
 **Comparison:** Evaluates the performance differences between Binary Search and standard Linear Search.
 
 
 
 3. Factorial Concurrency Analyzer 
+* A performance-testing application built to evaluate the efficiency of multithreading in Python.
 
-A performance-testing application built to evaluate the efficiency of multithreading in Python.
-
-* 
 **Operation:** Calculates the factorials of 50!, 100!, and 200!.
-
-
-* 
 **Multithreading:** Uses separate, dedicated threads to handle each factorial calculation concurrently.
-
-
-* 
 **Benchmarking:** Measures and compares the total processing time (in nanoseconds) between multithreaded execution and standard single-threaded execution across 10 rounds of testing.
 
 
 
 ## 💻 Technology Stack
-
-* 
 **Language:** Python 
-
-
-* 
 **Interface:** Command-Line Interface (CLI) 
 
 
