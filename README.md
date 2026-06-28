@@ -30,6 +30,18 @@ This repository contains the source code for the **Advanced Algorithms (5022CMD)
 
 ## 📋 How to Run
 
-1. Clone this repository to your local machine.
-2. Navigate to the directory of the specific program you wish to test (e.g., `Question 1`, `Question 2`, or `Question 3`).
-3. Execute the Python scripts via your terminal:
+**Requirements:** Python 3.x only. No external libraries or installation needed — the project uses the standard library exclusively.
+
+1. Download (or clone) this repository and extract it. All files sit in a single folder.
+2. Open a terminal **inside that folder** (this is required so the local module imports resolve correctly).
+3. Run the entry point for the question you want to test:
+
+   ```bash
+   python Q1_Main.py    # Question 1: Pharmacy Inventory System (Hashing)
+   python Q2_Main.py    # Question 2: Transaction Management System (Divide & Conquer)
+   python Q3_Main.py    # Question 3: Factorial Concurrency Analyzer
+   ```
+
+4. Each program is menu-driven — follow the on-screen options to run the features and benchmarks.
+
+> Note: run the scripts from the project root folder. The `Q*_Main.py` files import the other modules by name (e.g. `from Q1_Medicine import Medicine`), so they must stay together in the same directory.
